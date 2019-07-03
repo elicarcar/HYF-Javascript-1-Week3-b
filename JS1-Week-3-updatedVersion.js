@@ -40,7 +40,7 @@ const returnAllExercises = () => {
   //I know that this one below is not the best solution
   //But i tried not to use return since it was one of the main challenge in this task
   pets.forEach(function(pet) {
-    console.log(pet.name + " : " + pet.sound);
+    console.log(`${pet.name} : ${pet.sound}`);
   });
 
   //CONDITIONALS
